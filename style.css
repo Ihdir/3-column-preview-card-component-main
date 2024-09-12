@@ -17,9 +17,9 @@ body {
 }
 
 .block {
-    width: 300px;
-    height: 450px;
-    padding: 30px 35px;
+    width: 18.75rem; /* 300px */
+    height: 28.125rem; /* 450px */
+    padding: 1.875rem 2.1875rem; /* 30px 35px */
     color: white;
     display: flex;
     flex-direction: column;
@@ -30,8 +30,8 @@ body {
 
 .sedan {
     background-color: #f78c1f; /* Orange */
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 0.625rem; /* 10px */
+    border-bottom-left-radius: 0.625rem; /* 10px */
 }
 
 .suv {
@@ -40,13 +40,13 @@ body {
 
 .luxury {
     background-color: #013f36; /* Dark green */
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 0.625rem; /* 10px */
+    border-bottom-right-radius: 0.625rem; /* 10px */
 }
 
 img {
-    height: 50px;
-    width: 80px;
+    height: 3.125rem; /* 50px */
+    width: 5rem; /* 80px */
 }
 
 h1 {
@@ -54,31 +54,31 @@ h1 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 1rem; /* 16px */
     line-height: 1.5;
 }
 
 button {
-    padding: 10px 20px;
+    padding: 0.625rem 1.25rem; /* 10px 20px */
     background-color: white;
     color: #333;
     border: none;
-    border-radius: 50px;
+    border-radius: 3.125rem; /* 50px */
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem; /* 16px */
 }
 
 button:hover {
     background-color: transparent;
-    border: 2px solid white;
+    border: 0.125rem solid white; /* 2px */
     color: white;
     transition: 0.3s ease-in-out;
 }
 
-@media (max-width: 768px) {  /* For mobile and tablets */
+@media (max-width: 48rem) {  /* For mobile and tablets (768px) */
     .container {
         flex-direction: column;
-        padding: 40px 20px 20px 20px; /* Add padding around the container */
+        padding: 2.5rem 1.25rem 1.25rem 1.25rem; /* 40px 20px 20px 20px */
     }
 
     .block {
@@ -88,11 +88,12 @@ button:hover {
     }
 
     .sedan {
-        border-radius: 10px 10px 0 0; /* Rounded only at the top */
+        border-radius: 0.625rem 0.625rem 0 0; /* Rounded only at the top */
     }
 
     .luxury {
-        border-radius: 0 0 10px 10px; /* Rounded only at the bottom */
+        border-radius: 0 0 0.625rem 0.625rem; /* Rounded only at the bottom */
     }
 }
+
 
