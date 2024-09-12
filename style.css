@@ -14,11 +14,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    align-items: stretch;
+    padding: 2rem 0rem;
 }
 
 .block {
     width: 18.75rem; /* 300px */
-    height: 28.125rem; /* 450px */
+    min-height: 28.125rem;
     padding: 1.875rem 2.1875rem; /* 30px 35px */
     color: white;
     display: flex;
